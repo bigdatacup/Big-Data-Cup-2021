@@ -51,43 +51,55 @@
 
 <h2>Events</h2>
 <h3>Shot</h3>
-<p>Shot attempts regardless of outcome (block, goal, miss or save)</p>
-
-<p>Event Types</p>
-<ul>
-  <li>Deflection</li>
-  <li>Fan</li>
-  <li>Slapshot</li>
-  <li>Snapshot</li>
-  <li>Wrap Around</li>
-  <li>Wristshot</li>
-</ul>
+<p>Shot attempts that are unsuccessful (block, miss or save)</p>
 
 <p>Players Involved</p>
 <ul>
-  <li>player_name: Shooter </li>
-  <li>player_name_2: Passer (blank for unassisted shots)</li>
+  <li>Player: Shooter </li>
+  <li>Player 2: Passer (blank for unassisted shots)</li>
 </ul>
 
 <p>Coordinates</p>
 <ul>
-  <li>Release location </li>
-</ul>
-
-<p>Successful Events</p>
-<ul>
-  <li>Shot attempts that result in goals </li>
+  <li>X,Y Coordinate: Release location </li>
 </ul>
 
 <p>Event Details</p>
 <ul>
-  <li>event_detail_1: Shot destination (on net, missed or blocked)</li>
-  <li>event_detail_2: Traffic (true or false)</li>
-  <li>event_detail_3: One timer (true or false)</li>
+  <li>Detail 1:: Shot Type (Deflection, Fan, Slapshot, Snapshot, Wrap around, Wristshot)</li>
+  <li>Detail 2: Shot destination (on net, missed or blocked)</li>
+  <li>Detail 3: Traffic (true or false)</li>
+  <li>Detail 4: One timer (true or false)</li>
 </ul>
 <br>
+
+<h3>Goal</h3>
+<p>Shot attempts that are successful (goal)</p>
+
+<p>Players Involved</p>
+<ul>
+  <li>Player: Shooter </li>
+  <li>Player 2: Passer (blank for unassisted shots)</li>
+</ul>
+
+<p>Coordinates</p>
+<ul>
+  <li>X,Y Coordinate: Release location of the puck </li>
+</ul>
+
+<p>Event Details</p>
+<ul>
+  <li>Detail 1:: Shot Type (Deflection, Fan, Slapshot, Snapshot, Wrap around, Wristshot)</li>
+  <li>Detail 2: Shot destination (on net, missed or blocked)</li>
+  <li>Detail 3: Traffic (true or false)</li>
+  <li>Detail 4: One timer (true or false)</li>
+</ul>
+<br>
+
+
+
 <h3>Play</h3>
-<p>Pass attempts regardless of outcome (completion, turnover, errant)</p>
+<p>Pass attempts that are successful</p>
 
 <p>Event Types</p>
 <ul>
@@ -97,45 +109,79 @@
 
 <p>Players Involved</p>
 <ul>
-  <li>player_name: Passer </li>
-  <li>player_name_2: Intended pass target</li>
+  <li>Player: Passer </li>
+  <li>Player 2: Intended pass target</li>
 </ul>
 
 <p>Coordinates</p>
 <ul>
-  <li>x_pass, y_pass: Pass release location</li>
-  <li>x_receiver, y_receiver: Pass target location</li>
+  <li>X,Y Coordinate: Pass release location</li>
+  <li>X,Y Coordinate: Pass target location</li>
 </ul>
 
-<p>Successful Events</p>
+<p>Event details</p>
+<p>Detail 1: Pass Type</p>
 <ul>
-  <li>Completed passes </li>
+  <li>Direct (eg. a tape-to-tape pass)</li>
+  <li>Indirect (eg. a pass that is rimmed around the boards)</li>
 </ul>
 <br>
+
+<h3>Incomplete Play</h3>
+<p>Pass attempts that are unsuccessful</p>
+
+<p>Event Types</p>
+<ul>
+  <li>Direct (e.g. a tape-to-tape pass)</li>
+  <li>Indirect (e.g. a pass that is rimmed along the boards) </li>
+</ul>
+
+<p>Players Involved</p>
+<ul>
+  <li>Player: Passer </li>
+  <li>Player 2: Intended pass target</li>
+</ul>
+
+<p>Coordinates</p>
+<ul>
+  <li>X,Y Coordinate: Pass release location</li>
+  <li>X,Y Coordinate: Pass target location</li>
+</ul>
+
+<p>Event details</p>
+<p>Detail 1: Pass Type</p>
+<ul>
+  <li>Direct (eg. a tape-to-tape pass)</li>
+  <li>Indirect (eg. a pass that is rimmed around the boards)</li>
+</ul>
+<br>
+
+
 <h3>Takeaway</h3>
 <p>Steals, pass interceptions and won battles that lead to a change in possession</p>
 
 <p>Players Involved</p>
 <ul>
-  <li>player_name: Skater credited with the takeaway </li>
+  <li>Player: Skater credited with the takeaway </li>
 </ul>
 
 <p>Coordinates</p>
 <ul>
-  <li>Location where the skater gained possession when taking the puck away</li>
+  <li>X,Y Coordinate: Location where the skater gained possession when taking the puck away</li>
 </ul>
 <br>
+
 <h3>Puck Recovery</h3>
 <p>Possession gains initiated by retrieving a loose puck that was created by a missed/blocked/saved shot, an advance (e.g. dump-out/dump-in), a faceoff or a broken play</p>
 
 <p>Players Involved</p>
 <ul>
-  <li>player_name: Skater who recovered the puck</li>
+  <li>Player: Skater who recovered the puck</li>
 </ul>
 
 <p>Coordinates</p>
 <ul>
-  <li>Location where skater gained possession</li>
+  <li>X,Y Coordinate: Location where skater gained possession</li>
 </ul>
 <br>
 <h3>Dump In/Out</h3>
@@ -143,44 +189,36 @@
 
 <p>Players Involved</p>
 <ul>
-  <li>player_name: Skater who dumped/advanced the puck</li>
+  <li>Player: Skater who dumped/advanced the puck</li>
 </ul>
 
 <p>Coordinates</p>
 <ul>
-  <li>Location where skater released the puck</li>
+  <li>X,Y Coordinate: Location where skater released the puck</li>
 </ul>
-
-<p>Successful Events</p>
+<p>Event details</p>
 <ul>
-  <li>Possession regained after advancing the puck </li>
+  <li>Detail 1: Possession Outcome (Retained, Lost)</li>
 </ul>
 
 <br>
 <h3>Zone Entry</h3>
 <p>Attempts to move the puck into the offensive zone from the neutral zone</p>
 
-<p>Event Types</p>
-<ul>
-  <li>Carried</li>
-  <li>Dumped</li>
-  <li>Played</li>
-</ul>
-
 <p>Players Involved</p>
 <ul>
-  <li>player_name: Entry skater</li>
-  <li>player_name_2: Targeted defender</li>
+  <li>Player: Entry skater</li>
+  <li>Player 2: Targeted defender</li>
 </ul>
 
 <p>Coordinates</p>
 <ul>
-  <li>Point of release for dumps/advances, point where puck crossed the blueline for passes and carries</li>
+  <li>X,Y Coordinate: Point of release for dumps/advances, point where puck crossed the blueline for passes and carries</li>
 </ul>
 
-<p>Successful Events</p>
+<p>Event details</p>
 <ul>
-  <li>Control of the puck in the offensive zone for 3 + seconds or a shot attempt</li>
+  <li>Detail 1: Entry Type (Carried, Dumped, Played)</li>
 </ul>
 
 <br>
@@ -189,50 +227,33 @@
 
 <p>Players Involved</p>
 <ul>
-  <li>player_name:  Skater who won the draw</li>
-  <li>player_name_2: Skater who lost the draw</li>
+  <li>Player:  Skater who won the draw</li>
+  <li>Player 2: Skater who lost the draw</li>
 </ul>
 
 <p>Coordinates</p>
 <ul>
-  <li>•	Location of faceoff dot</li>
-</ul>
-
-<p>Successful Events</p>
-<ul>
-  <li>Possession regained after advancing the puck </li>
+  <li> X,Y Coordinate: Location of faceoff dot</li>
 </ul>
 
 <br>
 <h3>Penalty Taken</h3>
 <p>Infractions</p>
 
-<p>Event Types</p>
-<ul>
-  <li>Boarding</li>
-  <li>Closing hand on puck</li>
-  <li>Cross-checking</li>
-  <li>Delay of game</li>
-  <li>Goalkeeper interference</li>
-  <li>High-sticking</li>
-  <li>Holding</li>
-  <li>Holding the stick</li>
-  <li>Hooking</li>
-  <li>Interference</li>
-  <li>Roughing</li>
-  <li>Slashing</li>
-  <li>Too many men on the ice</li>
-  <li>Tripping</li>
-</ul>
 
 <p>Players Involved</p>
 <ul>
-  <li>player_name: Skater who took the penalty</li>
-  <li>player_name_2: Skater who drew the penalty</li>
+  <li>Player: Skater who took the penalty</li>
+  <li>Player 2: Skater who drew the penalty</li>
 </ul>
 
 <p>Coordinates</p>
 <ul>
-  <li>Location of infraction</li>
+  <li>X,Y Coordinate: Location of infraction</li>
+</ul>
+
+<p>Event Details</p>
+<ul>
+  <li>Detail 1: Infraction Type (e.g. Slashing, Tripping, Roughing, Hooking, ...)</li>
 </ul>
 
