@@ -34,7 +34,7 @@
   <li>Player (name of the player responsible for the event)</li>
   <li>Event (type of event, e.g. ‘Play’, ‘Shot’, …)</li>
   <li>X Coordinate (x-coordinate of where an event occurred on the ice, between 0 and 200)</li>
-  <li>Y Coordinate (x-coordinate of where an event occurred on the ice, between 0 and 85)</li>
+  <li>Y Coordinate (y-coordinate of where an event occurred on the ice, between 0 and 85)</li>
     <ul>
       <li>Coordinates are always from the perspective of the eventing team</li>
     </ul>
