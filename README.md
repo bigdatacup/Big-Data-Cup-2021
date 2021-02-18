@@ -21,30 +21,32 @@
 
 <h2>Contextual Data</h2> 
 <ul>
-  <li>game_date (e.g. ‘2020-12-23’ == ‘yyyy-mm-dd’)</li>
-  <li>season_year (e.g. 2019 == 2019-20) </li>
-  <li>team_name (e.g. ‘Toronto Maple Leafs’)
-    <ul><li>Name of the team responsible for the event ‘For’</li></ul>
-  </li>
-  <li>opp_team_name (e.g. ‘Boston Bruins’)
-    <ul><li>Name of the team responsible for the event ‘Against’</li></ul>
-  </li>
-  <li>venue (‘home’ or ‘away’)</li>
-  <li>period (e.g. 1,2,3, …)</li>
-  <li>clock_seconds (time remaining in period, in seconds)</li>
-  <li>situation_type (e.g. ‘5 on 5’, ‘5 on 4’, ‘4 on 5’, …)</li>
-  <li>goals_for (current goals scored in a game by the eventing team)</li>
-  <li>goals_against (current goals against in a game by the eventing team)</li>
-  <li>player_name (name of the player responsible for the event)</li>
-  <li>event (e.g. ‘Play’, ‘Shot’, ‘Zone Entry’, …)</li>
-  <li>event_successful (‘t’ or ‘f’ : criteria varies by event)</li>
-  <li>x_coord (x-coordinate of where an event occurred on the ice, between 0 and 200)</li>
-  <li>y_coord (x-coordinate of where an event occurred on the ice, between 0 and 85)
+  <li>Date (e.g. ‘2020-12-23’. Format = ‘yyyy-mm-dd’)</li>
+  <li>Home Team (e.g. ‘Toronto Maple Leafs’)</li>
+  <li>Away Team (e.g. ‘Boston Bruins’)</li>
+  <li>Period (range from 1-3 for regulation, 4+ for overtime)</li>
+  <li>Clock (e.g. ‘19:34’. Format = ‘mm:ss’)</li>
+  <li>Home Team Skaters (range from 3-6 for home skaters currently on the ice)</li>
+  <li>Away Team Skaters (range from 3-6 for away skaters currently on the ice)</li>
+  <li>Home Team Goals (current goals scored by the home team at the time of the event)</li>
+  <li>Away Team Goals (current goals scored by the away team at the time of the event)</li>
+  <li>Team (name of the team responsible for the event)</li>
+  <li>Player (name of the player responsible for the event)</li>
+  <li>Event (type of event, e.g. ‘Play’, ‘Shot’, …)</li>
+  <li>X Coordinate (x-coordinate of where an event occurred on the ice, between 0 and 200)</li>
+  <li>Y Coordinate (x-coordinate of where an event occurred on the ice, between 0 and 85)</li>
     <ul>
-      <li>(0,0) is always located in the bottom left corner of a team’s defensive zone, from the perspective of the goalie or looking ‘up ice’)</li>
       <li>Coordinates are always from the perspective of the eventing team</li>
     </ul>
   </li>
+  </ul>
+<img src = "rink_coords.png"></img>
+ <ul>
+ <li>Detail 1-4 (up to 4 supplementary details for each event, varies by event type)</li>
+ <li>Player 2 (name of a secondary player involved in an event, varies by event type)</li>
+ <li>X Coordinate 2 (x-coordinate of a secondary event detail, varies by event)</li>
+ <li>Y Coordinate 2 (y-coordinate of a secondary event detail, varies by event)</li>
+
 </ul>
 
 <br>
@@ -56,7 +58,6 @@
 <p>Players Involved</p>
 <ul>
   <li>Player: Shooter </li>
-  <li>Player 2: Passer (blank for unassisted shots)</li>
 </ul>
 
 <p>Coordinates</p>
@@ -79,7 +80,6 @@
 <p>Players Involved</p>
 <ul>
   <li>Player: Shooter </li>
-  <li>Player 2: Passer (blank for unassisted shots)</li>
 </ul>
 
 <p>Coordinates</p>
