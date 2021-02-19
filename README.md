@@ -67,7 +67,7 @@
 
 <p>Event Details</p>
 <ul>
-  <li>Detail 1:: Shot Type (Deflection, Fan, Slapshot, Snapshot, Wrap around, Wristshot)</li>
+  <li>Detail 1: Shot Type (Deflection, Fan, Slapshot, Snapshot, Wrap around, Wristshot)</li>
   <li>Detail 2: Shot destination (on net, missed or blocked)</li>
   <li>Detail 3: Traffic (true or false)</li>
   <li>Detail 4: One timer (true or false)</li>
