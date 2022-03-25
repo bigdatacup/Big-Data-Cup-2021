@@ -1,0 +1,4 @@
+shot_ind,frame_start_shot,frame_end_shot,time_start_shot(sec),time_end_shot(sec)
+0,1,1499,0.0,49.97
+3,1866,3174,62.17,105.8
+6,3228,4280,107.57,142.67

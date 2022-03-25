@@ -19,11 +19,15 @@
 
 <br>
 
+<h2>Tracking Data from Broadcast Video</h2>
+
+Tracking data and documentation is [here](TrackingData/).
+
+<br>
+
 <h2>Contextual (Event) Data</h2>
 
-[International Games](../blob/main/pxp_womens_oly_2022_v2.csv)
-[NCAA Games](../blob/main/hackathon_womens.csv)
-[NWHL Games](../blob/main/hackathon_nwhl.csv)
+[International Games](../main/pxp_womens_oly_2022_v2.csv) | [NCAA Games](../main/hackathon_womens.csv) | [NWHL Games](../main/hackathon_nwhl.csv)
 
 <ul>
   <li>Date (e.g. ‘2020-12-23’. Format = ‘yyyy-mm-dd’)</li>
