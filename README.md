@@ -15,11 +15,16 @@
 
 <h1>Dataset</h1>
 <h2>Summary</h2>
-<p>The dataset is comprised of Stathletes-tracked junior hockey data from the Erie Otters and women’s hockey data from the Olympics and NCAA. The included events have been translated from Stathletes’ raw data to enhance accessibility and interpretability. The various event types include shots, plays, takeaways, puck recoveries, dump ins, dump outs, zone entries, faceoffs and penalties. Event definitions may slightly differ from other sources. For each event, expanded details are provided and the relevant skaters and teams involved are indicated when necessary.</p>
+<p>The dataset is comprised of Stathletes-tracked women’s hockey event data from the Olympics and NCAA, as well as player tracking data generated from broadcast video. The included events have been translated from Stathletes’ raw data to enhance accessibility and interpretability. The various event types include shots, plays, takeaways, puck recoveries, dump ins, dump outs, zone entries, faceoffs and penalties. Event definitions may slightly differ from other sources. For each event, expanded details are provided and the relevant skaters and teams involved are indicated when necessary.</p>
 
 <br>
 
-<h2>Contextual Data</h2> 
+<h2>Contextual (Event) Data</h2>
+
+[International Games](../blob/main/pxp_womens_oly_2022_v2.csv)
+[NCAA Games](../blob/main/hackathon_womens.csv)
+[NWHL Games](../blob/main/hackathon_nwhl.csv)
+
 <ul>
   <li>Date (e.g. ‘2020-12-23’. Format = ‘yyyy-mm-dd’)</li>
   <li>Home Team (e.g. ‘Toronto Maple Leafs’)</li>
