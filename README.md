@@ -17,6 +17,8 @@
 <h2>Summary</h2>
 <p>The dataset is comprised of Stathletes-tracked women’s hockey event data from the Olympics and NCAA, as well as player tracking data generated from broadcast video. The included events have been translated from Stathletes’ raw data to enhance accessibility and interpretability. The various event types include shots, plays, takeaways, puck recoveries, dump ins, dump outs, zone entries, faceoffs and penalties. Event definitions may slightly differ from other sources. For each event, expanded details are provided and the relevant skaters and teams involved are indicated when necessary.</p>
 
+**NEW**: Tutorial on play-by-play, plotting, and tracking in R can be found [here](OTTHAC_Tutorial/)
+
 <br>
 
 <h2>Tracking Data from Broadcast Video</h2>
