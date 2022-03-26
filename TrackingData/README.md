@@ -25,6 +25,8 @@ The dataset contains 34 power plays from 6 2022 international women's hockey gam
 - Only players within the field of view of the broadcast camera are visible at any given time
 - Detection is only performed for video from the main broadcast camera. Skipped frames in the data likely mean that the camera angle switched (e.g., commercial, replay, camera behind the net)
 
+**NEW**: Tutorial on merging tracking and play-by-play data can be found [here](join_tracking_pbp.ipynb).
+
 ### `pp_info.csv`
 
 | **Column**                                         | **Description**                                                                                                                                                            |

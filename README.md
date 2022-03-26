@@ -23,6 +23,8 @@
 
 Tracking data and documentation is [here](TrackingData/).
 
+**NEW**: Tutorial on merging tracking and play-by-play data can be found [here](TrackingData/join_tracking_pbp.ipynb).
+
 <br>
 
 <h2>Contextual (Event) Data</h2>
