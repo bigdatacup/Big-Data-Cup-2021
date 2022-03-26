@@ -66,3 +66,12 @@ The dataset contains 34 power plays from 6 2022 international women's hockey gam
 | position   | The player’s position (Defense, Goalie, Center, Left Wing, or Right Wing). |
 | team       | Home or away.                                                              |
 
+
+## References
+
+- M. Yazdi and M. Fani, "Shot boundary detection with effective prediction of transitions' positions and spans by use of classifiers and adaptive thresholds," 2016 24th Iranian Conference on Electrical Engineering (ICEE), 2016, [https://ieeexplore.ieee.org/abstract/document/7585511](https://ieeexplore.ieee.org/abstract/document/7585511)
+- K. Vats, W. McNally, P. Walters, D. Clausi, and J. Zelek, “Ice hockey player identification via transformers,” arXiv, 2021, [https://arxiv.org/abs/2111.11535](https://arxiv.org/abs/2111.11535)
+- K. Vats, P. Walters, M. Fani, D. Clausi, and J. Zelek, “Player Tracking and Identification in Ice Hockey,” arXiv, 2021, [https://arxiv.org/abs/2110.03090](https://arxiv.org/abs/2110.03090)
+- M. Fani, P. Walters, D. Clausi, J. Zelek, and A. Wong, “Localization of Ice-Rink for Broadcast Hockey Videos,” Poster in WiCV2021, 2021, [https://arxiv.org/abs/2104.10847](https://arxiv.org/abs/2104.10847)
+
+
